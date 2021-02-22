@@ -221,8 +221,8 @@ class WorkScreen extends React.Component {
       kiosk: {
         title: "Fifty Work Evenlopes of Fast-food Kiosk",
         subtitle: ["kiosk", "accessibility", "prototype", "user-test"],
-        thumbnail: require("../assets/kiosk.webp")
-        // "https://images.unsplash.com/photo-1536689318884-9ee850c4c095?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTF8fHZlbmRpbmclMjBtYWNoaW5lfGVufDB8fDB8&ixlib=rb-1.2.1&auto=format&fit=crop&w=900&q=60"
+        thumbnail:
+          "https://images.unsplash.com/photo-1536689318884-9ee850c4c095?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTF8fHZlbmRpbmclMjBtYWNoaW5lfGVufDB8fDB8&ixlib=rb-1.2.1&auto=format&fit=crop&w=900&q=60"
       },
       cyber: {
         title: "Design A Humane Dashboard",
