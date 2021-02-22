@@ -1,3 +1,5 @@
+/* eslint-disable no-unused-expressions */
+
 import React from "react";
 import ReactDOM from "react-dom";
 import { BrowserRouter as Router, Route, Redirect } from "react-router-dom";
@@ -45,16 +47,6 @@ const App = () => (
       component={() => {
         window.location.href =
           "https://www.dropbox.com/s/j7zkt3t1yk8wdfy/pipo_reduced.pdf?dl=0";
-        return null;
-      }}
-    />
-
-    <Route
-      path="/resume"
-      component={() => {
-        window.location.href = () => {
-          process.env.PUBLIC_URL + "/myfile.pdf";
-        };
         return null;
       }}
     />
