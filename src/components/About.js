@@ -77,23 +77,13 @@ const About = () => (
         Currently in love with typography, design system, sci-fi (Snow Crush,
         not Hunger Games) and tacos.
       </Text>
-
-      {/* <Hyper
-        href="https://www.dropbox.com/s/reozb8rvm62hz2b/kylinchen_product_designer.pdf?dl=0"
-        target="_blank"
-      >
-        resume
-      </Hyper> */}
       <Hyper
-        // href={process.env.PUBLIC_URL + "/kylin_resume_2021.pdf"}
-        // href="https://uploads.codesandbox.io/uploads/user/242cc9cc-5945-4042-a14a-9fd6ee826004/OzqX-kylin_resume_2021.pdf"
-        // href={pdf}
-        href="https://raw.githubusercontent.com/kylingoround/nextjs-netlify-blog-template/master/public/images/kylin_resume_2021.pdf"
+        href="https://www.dropbox.com/s/todwred0f4jql21/kylin_resume_2021.pdf?dl=0"
         target="_blank"
       >
-        resume
+        Resume
       </Hyper>
-      <Hyper href="https://www.linkedin.com/in/kylinschen/" target="_blank">
+      <Hyper href="https://www.linkedin.com/in/kylinc/" target="_blank">
         linkedin
       </Hyper>
       <Hyper href="https://www.behance.net/flatroom" target="_blank">
