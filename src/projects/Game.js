@@ -26,7 +26,8 @@ class Game extends Component {
           subtitle="Reinventing Customer Experience in Gaming"
           hasVideo={true}
           // mediaUrl="https://player.vimeo.com/video/298942394"
-          thumbnail={require("../assets/game_test_bg_small.jpg")}
+          thumbnail="https://raw.githubusercontent.com/kylingoround/nextjs-netlify-blog-template/master/public/images/game_test_bg_small.jpg"
+          // thumbnail={require("../assets/game_test_bg_small.jpg")}
           // thumbnail="https://i.imgur.com/JwTHkOh.png"
         >
           {this.state.md}
